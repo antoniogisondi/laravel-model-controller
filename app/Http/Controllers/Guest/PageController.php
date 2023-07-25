@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     public function index(){
-        return view('layouts.app');
+        return view('home');
     }
 }
