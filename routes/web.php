@@ -15,3 +15,5 @@ use App\Http\Controllers\Guest\PageController as PageController;
 */
 
 Route::get('/', [PageController::class, 'index']);
+
+Route::get('/home/{id}', [PageController:: class, 'show'])->name('details');
